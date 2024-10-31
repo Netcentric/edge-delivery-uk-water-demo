@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--edge-delivery-uk-water-demo--Netcentric.aem.page/
-- Live: https://main--edge-delivery-uk-water-demo--Netcentric.aem.live/
+- Preview: https://main--edge-delivery-uk-water-demo--netcentric.aem.page/
+- Live: https://main--edge-delivery-uk-water-demo--netcentric.aem.live/
 
 ## Installation
 
