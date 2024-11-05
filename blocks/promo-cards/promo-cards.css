@@ -1,0 +1,88 @@
+.promo-cards-container .promo-cards-wrapper {
+    max-width: unset;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.promo-cards {
+    padding-block-start: 86px;
+    padding-inline: 15px;
+    margin-inline: auto;
+
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+}
+
+.promo-cards.grid-number-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.promo-cards a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    margin-block-end: 32px;
+}
+
+.promo-card {
+    background-color: #fff;
+    height: 100%;
+}
+
+.promo-card-image {
+    aspect-ratio: 16/9;
+}
+
+.promo-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.promo-card-content {
+    padding: 27px 32px 32px;
+}
+
+.promo-card-content h3,
+.promo-card-content p {
+    margin: 0;
+    padding-block-end: 20px;
+}
+
+.promo-card-content h3 {
+    color: #004595;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.promo-card-content h3:hover {
+    color: #0097e6;
+}
+
+.promo-card-content p {
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.promo-card-content p:last-child {
+    font-weight: 600;
+}
+
+.promo-card-content p:hover {
+    text-decoration: underline;
+}

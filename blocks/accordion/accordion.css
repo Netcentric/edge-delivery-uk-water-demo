@@ -1,6 +1,6 @@
 .accordion-wrapper {
     padding-inline: 15px !important;
-    
+
     @media (min-width: 768px) {
         max-width: 720px !important;
     }
