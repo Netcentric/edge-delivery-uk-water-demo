@@ -1,0 +1,49 @@
+.breadcrumb-container .breadcrumb-wrapper {
+    padding: 0;
+    max-width: unset;
+}
+
+.breadcrumb {
+    position: relative;
+}
+
+.breadcrumb-content {
+    background: #002551;
+    padding-block-start: 41px;
+    padding-block-end: 38px;
+    padding-inline: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    /*this widths are for all the containers*/
+    @media (min-width: 768px) {
+        padding-block-start: 61px;
+        padding-block-end: 72px;
+        max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+
+    @media (min-width: 1200px) {
+        padding-inline-start: 190px;
+        max-width: 1140px;
+    }
+}
+
+.breadcrumb:before {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background: #002551;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+.breadcrumb h1 {
+    color: #fff;
+    margin: 0;
+}
