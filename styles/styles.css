@@ -291,3 +291,20 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+.default-content-wrapper {
+    padding-inline: 15px !important;
+
+    @media (min-width: 768px) {
+        max-width: 720px !important;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px !important;
+    }
+
+    @media (min-width: 1200px) {
+        padding-inline: 285px !important;
+        max-width: 1140px !important;
+    }
+}
