@@ -91,9 +91,9 @@ body.appear {
   display: block;
 }
 
-header {
-  height: var(--nav-height);
-}
+/*header {*/
+/*  height: var(--nav-height);*/
+/*}*/
 
 header .header,
 footer .footer {
@@ -144,25 +144,29 @@ blockquote {
   margin-bottom: 0.25em;
 }
 
-ul {
+.default-content-wrapper ul {
     list-style: none;
     padding: 0;
     margin-block: 20px;
 }
 
-li {
+.default-content-wrapper li {
     position: relative;
     padding-left: 30px;
-}
 
-li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 10px;
-    width: 10px;
-    height: 10px;
-    background: #004595;
+    + li {
+        margin-block-start: 10px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 10px;
+        height: 10px;
+        background: #004595;
+    }
 }
 
 code,
@@ -313,4 +317,8 @@ main .section.highlight {
 .default-content-wrapper a {
     text-decoration: underline;
     font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
 }
