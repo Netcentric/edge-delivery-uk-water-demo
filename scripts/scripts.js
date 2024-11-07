@@ -38,6 +38,7 @@ async function loadFonts() {
   } catch (e) {
     // do nothing
   }
+  await loadCSS(`${window.hlx.codeBasePath}/styles/fontawesome.css`);
 }
 
 /**
